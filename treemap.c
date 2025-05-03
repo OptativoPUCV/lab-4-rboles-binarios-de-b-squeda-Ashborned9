@@ -126,7 +126,7 @@ void removeNode(TreeMap * tree, TreeNode* node) {
                 tree->root = child;
             }
             free(node->pair);
-            else {}
+            else {
                 TreeNode * Succ = minimum(node->right);
 
                 TreeNode * child = Succ->right;

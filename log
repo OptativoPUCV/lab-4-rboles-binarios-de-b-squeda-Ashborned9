@@ -39,3 +39,27 @@ Sat, May  3, 2025  6:34:47 PM:
  tests:  15|4
 total_score: 25/70
 4fe2369
+Sat, May  3, 2025  7:45:47 PM: 
+ treemap.c | 51 +++++++++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 51 insertions(+)
+Compilation failed
+In file included from test.c:4:0:
+treemap.c: In function 'removeNode':
+treemap.c:110:13: error: statement with no effect [-Werror=unused-value]
+             free
+             ^~~~
+treemap.c:111:9: error: expected ';' before '}' token
+         }
+         ^
+treemap.c:129:13: error: expected '}' before 'else'
+             else {}
+             ^~~~
+treemap.c: At top level:
+treemap.c:150:9: error: expected identifier or '(' before '}' token
+         }
+         ^
+treemap.c:151:5: error: expected identifier or '(' before '}' token
+     }
+     ^
+cc1.exe: all warnings being treated as errors
+dc65503

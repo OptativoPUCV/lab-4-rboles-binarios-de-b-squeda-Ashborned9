@@ -222,7 +222,7 @@ Pair * firstTreeMap(TreeMap * tree) {
 
     TreeNode* minNode = minimum(tree->root);
 
-    return NULL;
+    return minNode->pair;
 }
 
 Pair * nextTreeMap(TreeMap * tree) {
